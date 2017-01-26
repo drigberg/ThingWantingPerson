@@ -73,7 +73,7 @@ var Thing = function() {
     this.height = 0;
     this.alive = true;
     this.direction = 0;
-    this.speed = random(0, 10);
+    this.speed = random(2, 10);
 
     this.update = function() {
         this.x += this.speed * this.direction;
